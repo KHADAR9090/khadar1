@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My DevOps Project</title>
+    <style>
+      body {
+        background-color: rgb(57, 54, 61);
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      p {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      button {
+        display: block;
+        margin: 50px auto;
+        padding: 10px 20px;
+        font-size: 24px;
+        background-color: #afd2e6;
+        color: rgb(236, 18, 18);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #00405C;
+      }
+      a {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 24px;
+        color: #09a7eb;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #5f147c;
+      }
+      video {
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My DevOps Project</h1>
+    <video autoplay loop muted src="C:\Users\Hello\Downloads\Hi frinds.mp4"> </video>
+    <h2> my first first project</h2> 
+    <p>I successfully launched an khadar vm/instance, SSH'd into it, installed and set up Apache, and deployed this website!</p>
+    <button onclick="window.location.href='https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href)">Share on LinkedIn</button>
+    <a href="https://www.youtube.com/@Pkhadar7800">Subscribe to my YouTube channel</a>
+  </body>
+</html>
